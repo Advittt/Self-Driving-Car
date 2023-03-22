@@ -187,7 +187,7 @@ def run_simulation(genomes, config):
     generation_font = pygame.font.SysFont("Arial", 30)
     alive_font = pygame.font.SysFont("Arial", 20)
     # TODO add your map here:
-    game_map = pygame.image.load('map.png').convert() # Convert Speeds Up A Lot
+    game_map = pygame.image.load('map3.png').convert() # Convert Speeds Up A Lot
 
     global current_generation
     current_generation += 1
